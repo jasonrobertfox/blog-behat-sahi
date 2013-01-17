@@ -1,0 +1,10 @@
+default:
+  paths:
+    bootstrap:  '%behat.paths.features%/bootstrap'
+  extensions:
+    Behat\MinkExtension\Extension:
+      base_url: http://neverstopbuilding.net
+      javascript_session: sahi
+      browser_name: firefox
+      goutte: ~
+      sahi: ~

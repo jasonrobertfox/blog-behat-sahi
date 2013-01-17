@@ -1,0 +1,16 @@
+{
+        "name": "behat-sahi",
+        "description": "Behat and Sahi Example",
+        "require": {
+            "behat/behat": "2.4.*",
+            "behat/mink": "1.4@stable",
+            "fabpot/goutte": "1.0.x-dev",
+            "behat/mink-extension": "dev-master",
+            "behat/mink-goutte-driver":"dev-master",
+            "behat/mink-sahi-driver": "*"
+        },
+        "config": {
+            "vendor-dir": "vendor/",
+            "bin-dir": "bin/"
+        }
+    }
